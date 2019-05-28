@@ -66,7 +66,7 @@ if($_['passwordChangeSupported']) {
 	   href="<?php p(link_to_docs('user-2fa')); ?>"></a>
 	<p class="settings-hint"><?php p($l->t('Use a second factor besides your password to increase security for your account.'));?></p>
 	<ul>
-	<?php foreach ($_['twoFactorProviderData']['providers']  as $data) { ?>
+	<?php foreach ($_['twoFactorProviderData']['providers'] as $data) { ?>
 		<li>
 			<?php
 
